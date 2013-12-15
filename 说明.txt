@@ -1,0 +1,3 @@
+°²×°Graphviz
+dot -Tjpg graf.dot -o graf.jpg
+sfdp -Tpng graf.gv -o graf.png
