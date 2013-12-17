@@ -3,11 +3,12 @@
 # @Author: jinpf
 # @Date:   2013-12-14 22:49:12
 # @Last Modified by:   jinpf
-# @Last Modified time: 2013-12-15 18:35:54
+# @Last Modified time: 2013-12-17 14:39:28
 # @Email: jpflcj@sina.com
 
 """
 # @comment here:
+读取原始文件，生成画图文件.gv
 
 """
 import random
@@ -16,7 +17,7 @@ if __name__ == '__main__':
 	with open('Email-EuAll.txt','r') as data:
 		lines=data.readlines()
 	
-	sampleline=random.sample(lines,2400)
+	sampleline=random.sample(lines,2300)
 	'''
 	后面的数字代表抽样的大小
 	'''

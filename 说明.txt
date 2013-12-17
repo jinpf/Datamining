@@ -1,3 +1,4 @@
 °²×°Graphviz
 dot -Tjpg graf.dot -o graf.jpg
 sfdp -Tpng graf.gv -o graf.png
+sfdp -Tsvg graf.gv -o graf.svg
